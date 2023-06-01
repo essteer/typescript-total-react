@@ -10,7 +10,6 @@ pnpm init
 pnpm add typescript --save-dev
 
 pnpm tsc --init
-(or pnpx tsc --init [??])
 
 Then go to tsconfig.json and enable "jsx": "preserve" under "compilerOptions".
 
